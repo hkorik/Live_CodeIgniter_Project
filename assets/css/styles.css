@@ -1,0 +1,205 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.clear{
+	clear: both;
+}
+.dark_grey{
+	background-color: #757272;
+}
+.blue{
+	background-color: blue;
+}
+.green{
+	background-color: green;
+}
+/* header page */
+#wrapper{
+	padding: 15px;
+	width:900px;
+	margin: 10px auto;
+	height: 0px;
+}
+	#wrapper .navbar{
+		font-size: 14px;
+	}
+	#wrapper .navbar p{
+		margin-right: 30px;
+	}
+	#wrapper .navbar a{
+		font-size: 14px;
+	}
+	#wrapper .jumbotron{
+	border:8px darkgrey;
+	}
+	#wrapper .blue{
+	background-color: blue;
+	}
+	#wrapper .green{
+		background-color: green;
+	}
+	/*Pop up Messages styling*/
+	.success_message{
+		color: green;
+	}
+	#success_message p{
+		color: green;
+	}
+	.field_block p{ 
+		color: red; 
+	}
+	.highlighted{
+		border:1px solid red;
+	}
+	.description_field_block p{ 
+		color: red; 
+	}
+	.field_block{
+		border:1px solid red;
+		width:260px;
+		margin-bottom:5px;
+	}
+	.field_block_text p{ 
+		color: red; 
+	}
+	/* Outside form page */
+	#wrapper .outside_form{
+		width:250px;
+		margin: 20px 0px 0px 15px;
+	}
+		#wrapper .outside_form h2{
+		font-weight: bold;
+		margin: 0px 0px 40px 0px;
+		}
+		#wrapper .form-control{
+			width:250px;
+		}
+		#wrapper .btn{
+			border:2px bold black;
+		}
+		#wrapper .blue{
+		background-color: blue;
+		}
+		#wrapper .green{
+			background-color: green;
+		}
+	/* User Dashboard page */
+	#wrapper #user_dashboard h3{
+		margin:0px 0px 30px 0px;
+	}
+	/* Admin Dashboard page */
+	#wrapper #admin_dashboard h3{
+		margin:0px 0px 30px 0px;
+	}
+		#wrapper #admin_dashboard .last_td{
+			width:180px;
+		}
+		#wrapper #admin_dashboard .last_td .btn{
+			margin: 0px 0px 0px 15px;
+		}
+		#wrapper #admin_dashboard .btn{
+			border:2px bold black;
+		}
+	/* Inside form page */
+	#wrapper #inside_form{
+		width:250px;
+		margin: 20px 0px 0px 15px;
+	}
+		#wrapper #inside_form h2{
+		font-weight: bold;
+		margin: 0px 0px 40px 0px;
+		}
+		#wrapper #inside_form .form-control{
+			width:250px;
+		}
+		#wrapper #inside_form input.btn{
+			background-color: green;
+			border:2px bold black;
+		}
+		#wrapper a.btn{
+			border:2px bold black;
+		}
+	/* User Profile page */
+	#wrapper #user_profile h3{
+		font-weight: bold;
+	}
+	#wrapper #user_profile li{
+		list-style-type: none;
+	}
+	#wrapper #user_profile input{
+		display: block;
+		margin: 10px 0px 0px 0px;
+	}
+	#wrapper #user_profile .date{
+		margin: 10px 0px 0px 0px;
+	}
+	/*#wrapper #user_profile #post_message{
+		margin: 10px 0px 0px 0px;
+		width:870px;
+	}*/
+		#wrapper #user_profile #message_post{
+			margin: 10px 0px 0px 0px;
+			width:870px;
+			border: 2px solid black;
+		}
+	#wrapper #user_profile #post_comment{
+		margin: 10px 0px 0px 0px;
+		width:740px;
+	}
+		#wrapper #user_profile #comment_post{
+			margin: 0px 0px 10px 0px;
+			width:740px;
+			border: 2px solid black;
+		}
+	/* Edit User page */	
+	#wrapper .border{
+	border:1px solid black;
+	padding: 15px;
+	}
+		#wrapper legend{
+		    text-align: center
+		}
+	#wrapper #edit_user_pw{
+		margin-top: 20px;
+	}
+		#wrapper #edit_user_pw a{
+		margin-bottom: 10px;
+		}
+		#wrapper #edit_user_pw .border{
+			border:1px solid black;
+			padding: 15px;
+		}
+		#wrapper #edit_user_pw legend{
+		    text-align: center
+		}
+	/* Edit Profile page */	
+	#wrapper .border{
+	border:1px solid black;
+	padding: 15px;
+	}
+		#wrapper legend{
+		    text-align: center
+		}
+	#wrapper #edit_profile_pw{
+		margin-top: 65px;
+	}
+		#wrapper #edit_profile_pw a{
+		margin-bottom: 10px;
+		}
+		#wrapper #edit_profile_pw .border{
+			border:1px solid black;
+			padding: 15px;
+		}
+		#wrapper #edit_profile_pw legend{
+		    text-align: center
+		}
+	#wrapper #description .btn{
+		margin-top: 20px;
+	}

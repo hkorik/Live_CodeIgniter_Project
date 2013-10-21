@@ -1,0 +1,44 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3290" measuredH="1952" mockupW="3230" mockupH="1932">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="60" y="20" w="-1" h="-1" measuredW="3230" measuredH="1932" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../Assignments/MVC_Assignments/Advanced_Assignment/Files_for_download/MVC_Project_Wireframe.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::StickyNote" x="2102" y="352" w="154" h="143" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Display%20error%20messages%20with%20Ajax%20so%20correct%20input%20doesn%27t%20get%20deleted%20when%20messages%20come%20up.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::StickyNote" x="1342" y="271" w="154" h="143" measuredW="109" measuredH="123" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Display%20error%20messages%20with%20Ajax%20so%20correct%20input%20doesn%27t%20get%20deleted%20when%20messages%20come%20up.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::StickyNote" x="2295" y="352" w="154" h="110" measuredW="109" measuredH="123" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>On%20successful%20registration%20redirect%20to%20dashboard.</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::StickyNote" x="1502" y="277" w="154" h="110" measuredW="109" measuredH="123" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>On%20successful%20registration%20redirect%20to%20dashboard.</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::StickyNote" x="2898" y="1070" w="154" h="143" measuredW="109" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Display%20error%20messages%20with%20Ajax%20so%20correct%20input%20doesn%27t%20get%20deleted%20when%20messages%20come%20up.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::StickyNote" x="1241" y="1063" w="154" h="143" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Display%20error%20messages%20with%20Ajax%20so%20correct%20input%20doesn%27t%20get%20deleted%20when%20messages%20come%20up.%0A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::StickyNote" x="1256" y="1717" w="154" h="143" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Display%20error%20messages%20with%20Ajax%20so%20correct%20input%20doesn%27t%20get%20deleted%20when%20messages%20come%20up.%0A%20</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
