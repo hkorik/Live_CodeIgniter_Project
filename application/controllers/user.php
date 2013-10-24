@@ -93,9 +93,9 @@ class User extends CI_Controller {
 	public function process_registration()
 	{
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('email', 'Email', 'valid_email|required|xss_clean');
+		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('email', 'Email', 'valid_email|max_length[20]|required|xss_clean');
 		$this->form_validation->set_rules('password', 'Password', 'min_length[8]|required|xss_clean');
 		$this->form_validation->set_rules('confirm_password', 'Confirm Password', 'matches[password]|required|xss_clean');
 
@@ -300,9 +300,9 @@ class User extends CI_Controller {
 	public function process_new_user()
 	{
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('email', 'Email', 'valid_email|required|xss_clean');
+		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('email', 'Email', 'valid_email|max_length[20]|required|xss_clean');
 		$this->form_validation->set_rules('password', 'Password', 'min_length[8]|required|xss_clean');
 		$this->form_validation->set_rules('confirm_password', 'Confirm Password', 'matches[password]|required|xss_clean');
 
@@ -396,9 +396,9 @@ class User extends CI_Controller {
 	{
 		$id['id'] = $this->session->userdata('edit_id');
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('email', 'Email', 'valid_email|required|xss_clean');
+		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('email', 'Email', 'valid_email|max_length[20]|required|xss_clean');
 
 		if($this->form_validation->run() === FALSE)
 		{
@@ -698,9 +698,9 @@ class User extends CI_Controller {
 	public function process_edit_profile_info()
 	{
 		$this->load->library('form_validation');
-		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|required|xss_clean');
-		$this->form_validation->set_rules('email', 'Email', 'valid_email|required|xss_clean');
+		$this->form_validation->set_rules('first_name', 'First Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('last_name', 'Last Name', 'alpha|max_length[15]|required|xss_clean');
+		$this->form_validation->set_rules('email', 'Email', 'valid_email|max_length[20]|required|xss_clean');
 
 		if($this->form_validation->run() === FALSE)
 		{
