@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'mycodin1_hershy';
-$db['default']['password'] = 'dtimein88b';
+$db['default']['password'] = '';
 $db['default']['database'] = 'mycodin1_advanced_mvc';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
